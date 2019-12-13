@@ -11,6 +11,7 @@ import java.util.Scanner;
 		public static void main(String[] args) throws Exception  {
 			//Import accounts
 			
+			//This file name should be changed to match the proper location.  We have provided a sample ATM text file
 			File f = new File("/Users/tejaskelkar/Downloads/ATM.txt");
 
 			ArrayList<Account> accounts = Account.importFile(f);
